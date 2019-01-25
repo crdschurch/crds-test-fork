@@ -19,7 +19,7 @@ namespace Controllers
         {
             //TODO: Set up a singeton / interface whatever to make it easy for any part of the application to return a 400
 
-
+            Console.WriteLine("This is an upstream test");
             return StatusCode(200);
         }
 
