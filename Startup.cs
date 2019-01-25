@@ -21,7 +21,7 @@ namespace crds_core_service_template
     {
 
         public IConfiguration Configuration { get; set; }
-
+        public string awesomeString;
 
         public Startup(IConfiguration configuration)
         {
